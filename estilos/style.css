@@ -1,0 +1,418 @@
+/*arriba dejo los estilos de lo que se repite en todas las paginas y luego lo que tiene un diseño unico */
+/* barra de navegacion */
+.container-fluid{
+    background-color: rgba(37, 3, 79, 0.776);
+    font-family:"Caudex", serif;
+    color: rgb(182, 198, 213);
+    margin-left: auto;
+    top: 0%;
+    z-index: 15; 
+    position:sticky;
+}
+@media (max-width:1365px) {
+    .navbar{
+        display: flex;
+        max-width: 10px;
+        height: 5%;
+
+    }
+    .container-fluid{
+        display: table;
+        background-color: rgb(58, 58, 190);
+        position: fixed;
+    }
+
+}
+@media  (max-width:915px) {
+    .container-fluid{
+        background-color: rgb(9, 91, 121);
+        max-width: auto;
+        margin: 0%;
+        position: fixed;
+    }
+}
+/* items de nav  */
+.nav-item{
+    margin-left: 10%;
+}
+
+/* logo superior*/
+.logo{    
+    margin-left:20rem;
+    max-width: 10%;
+    height: auto;
+    object-fit: contain;
+
+}
+/* footer */
+footer{
+    background-color: rgba(37, 3, 79, 0.776) ;
+    font-family:"Caudex", serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    margin: 20px;
+    max-width: max-content;
+
+}
+.footer-img{
+    width: 150px;  
+    height: auto;
+    display: flex;  
+    align-items: center;
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom: auto
+}
+.footer-center{
+    color: aliceblue;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer-center p{
+    margin-left: 9%;
+}
+.footer-center img{
+    max-width: 9%;
+    display:inline-flex;
+    margin-bottom:15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer-derecha{
+    color: aliceblue;
+    font-size: 78%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (max-width: 1365px){
+    .foter{
+        background-color: rgb(58, 58, 190);
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media (max-width:916px) {
+    .foter{
+        flex-direction: column;
+        font-size: 10px;
+        flex-direction: column;
+        background-color: rgb(9, 91, 121);
+    }
+    .footer-izquierda{
+        display:grid ;
+        max-width: 50%;
+        max-height: 68%;
+        margin-left: 11%;
+    }
+}
+
+
+/*titulos principales  */
+.titulo{
+    font-family:"Caudex", serif;
+    color:  rgb(38, 21, 107);
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.titulo h2{
+    text-decoration: underline;
+    font-size:150% ;
+    text-decoration-line: initial;
+}
+.titulo p {
+    color: black;
+    font-size: 100%;
+    text-align: left;
+}
+
+.titulo li{
+    color: black;
+    text-align: left;
+}
+@media (max-width:1365px){
+    .container{
+        display: flex;  
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        width: calc(50% - 10px);
+        margin: 5px;
+        box-sizing: border-box; 
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        font-size: 70%;
+        color: rgb(80, 13, 73);
+        
+    }
+    h5{
+        font-size: 40px;
+       
+    }
+    .inicio{
+        margin-top: 5%;
+    }
+
+}
+@media  (max-width:915px) {
+    .titulo{
+        margin-top: 5%;
+        font-size: 40px;
+
+    }
+    .titulo p{
+        font-size: 25px;
+    }
+
+}
+
+
+
+/* sector index */
+.carousel-inner {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.final{
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-family:"Caudex", serif;
+    
+}
+.final h4{
+    text-decoration: underline;
+    color: rgb(38, 21, 107);;
+}
+
+@media (max-width:1365px){
+    .inicio{
+        font-size: 30px;
+    }
+    .final{
+        font-size: 30px;
+    }
+
+}
+@media  (max-width:915px) {
+    .inicio{
+        font-size: 20px;
+    }
+    .final{
+        font-size: 20px;
+    }
+
+}
+/* sector ayuda */
+.accordion{
+    font-family:"Caudex", serif;   
+}
+.accordion-collapse{
+    background-color: rgba(233, 218, 245, 0.543);
+}
+
+
+
+/* sector registro*/
+.contenedor-formulario{
+    font-family: "Caudex", serif;
+    background-color: #947cb993;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #474343;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.grid-form {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+    margin-left: 30px;
+    font-size: 15px;
+    align-items: center;
+}
+.form-group label{
+    flex: 0 0 auto;
+    text-align: right;
+    max-width: 258px;
+}
+.grid-form input {
+    flex: 1;
+    text-align: right;
+    padding: 5px;
+    background-color: #eee7f6;
+    border: 1px solid #200505;
+    padding: px;
+    margin-left: 200px;
+    min-width: 370px; 
+    max-width: 400px;
+}.grid-form select{
+    flex: 1;
+    text-align: right;
+    padding: 5px;
+    background-color: #eee7f6;
+    border: 1px solid #200505;
+    padding: px;
+    margin-left: 200px;
+    min-width: 370px; 
+    max-width: 400px; 
+}
+.botton{
+    padding: 6px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0,1px;
+    display: flex;
+    justify-content:center;
+    border-radius: 0,1px; 
+    display: flex;
+    justify-content: center;
+    content: icon;
+    height: 50px;
+    padding: 10px 20px;
+}
+@media (max-width:1365px){
+    .contenedor-formulario{
+        background-color: rgb(146, 129, 238);
+    }
+}
+
+
+@media  (max-width:915px) {
+    .contenedor-formulario{
+        background-color: rgb(50, 102, 105);
+    }
+
+}
+
+/* mapas */
+.ubicacion h2{
+    text-align: center;
+    text-decoration: double;
+    font-family:"Caudex", serif;
+    font-size:190% ;
+    text-decoration: underline;
+    margin-bottom: 80px;
+}
+.ubicacion ul{
+    font-size: 130%;
+    text-align:left;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:"Caudex", serif;
+    margin-top: 2.5cm;
+    justify-items:left;
+    margin-left: 0%;
+    list-style:georgian;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+.contenedor-mapa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    height: 450px;
+    margin-left: 10%;
+}
+@media (max-width:1365px){
+    .ubicacion{
+        font-size: 20px;
+        align-items: left;
+        text-decoration: double;
+    }
+    .contenedor-mapa{
+        display:flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    .mapa{
+        width: 800px; 
+        height: 900px;
+    }
+    .lista{
+      color: rgb(48, 49, 66);  
+        
+    }
+
+}
+@media  (max-width:915px) {
+
+    .h2{
+        font-size: 40%;
+        margin-top: 400px;
+    }
+    .contenedor-mapa{
+        width: 60%; 
+
+    }
+    .mapa{
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
+
+}
+/* productos */
+.conteiner{
+    font-family: "Caudex", serif;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.card{
+    max-height: 150%;
+    max-width: 500px;
+}
+
+.col{
+    font-family: "Caudex", serif;
+    justify-items: auto;
+  
+}
+.col img{
+    object-fit:scale-down;
+    width: 478px;
+    height: 400px;
+}
+.compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1365px){
+
+    .card{
+
+        margin-left:auto ;
+        margin-right:35px;
+    }
+    .conteniner img{
+        margin-right:none;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 915x) {  
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {  
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        flex: 2 2 20%;
+        width: 300px; 
+        height: 200px;
+    
+    }
+    .card img{
+         object-fit: cover;
+    }
+}

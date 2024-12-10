@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Producos -Moon Night Tienda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:rgba(235, 216, 251, 0.632)">
+       <!-- barra del navegador -->
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="../index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../secundarios/ubicaciones.html">Nuestros Locales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../secundarios/registro.html">Registrate</a>
+              </li>
+              <li class="nav-item">
+                <!-- poner el link -->
+                <a class="nav-link" href="../secundarios/ayuda.html">Ayuda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../secundarios/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Nuestros productos </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../secundarios/productos.html">Productos</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="../secundarios/productos.html#seccion-botas">Botas Altas.</a></li>
+                    <li><a class="dropdown-item" href="../secundarios/productos.html#seccion-borcegos">Borcegos.</a></li>
+                    <li><a class="dropdown-item" href="../secundarios/productos.html">Tacos.</a></li>
+                    <li><a class="dropdown-item" href="../secundarios/productos.html#seccion-zapatillas">Zapatillas.</a></li>
+                    <li><a class="dropdown-item" href="../secundarios/productos.html#seccion-accesorios">Accesorios</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div>
+              <img class="logo object-fit-fill border rounded" src="../multimedia/logo.jpeg" alt="logo">
+            </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ <!-- productos -->
+ <!-- secion botas altas -->
+  <header class="titulo">
+    <h1>¡Nuestros productos!</h1>
+    <p>¿Buscas calzado que refleje tu alma rebelde? Nuestra colección de zapatos góticos Moon Nigth te ofrece una amplia variedad de estilos y materiales para que encuentres el par perfecto que complemente tu look. ¡Bienvenido a la oscuridad!</p>
+  </header>
+  <div class="conteniner">
+        <h2 class="titulo" id="seccion-botas">Botas Altas</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+           <div class="col">
+                <div class="card  h-70">
+                    <img src="../multimedia/botas-altas-1.jpeg" alt="botas altas color negro con broches de decoracion en el talon de tacon alto ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Cuero negro</strong></h5>
+                        <p class="card-text">Botas altas negras</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 3 meses.</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 2 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/bota-alta-2.jpeg" alt="botas negras de cuero altas por encima de la rodilla ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Misterio Nocturno</strong></h5>
+                        <p class="card-text">Botas negras altas.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">ultima actualizacion hace 3 días</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/bota-Alta-3.jpeg" alt="botas altas de terciopelo con taco ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Aterciopeladas</strong></h5>
+                        <p class="card-text">Botas altas de terciopelo</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 1 mes.</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/bota-Alta-4.jpeg" alt="botas altas color beige con taco hasta la rodilla">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Boom beige</strong></h5>
+                        <p class="card-text">Botas altas color beige con taco</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 1 mes.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/bota-alta-5.jpeg" alt="botas negras con platafroma alta con una cruz plateada">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Botas demon altas</strong></h5>
+                        <p class="card-text">Botas altas de plataforma altas.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 4 días.</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 6 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/bota-alta-6.jpeg" alt="botas altas con broches plateados grandes con plataforma">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Cuerina</strong></h5>
+                        <p class="card-text">botas de cuero con tacones altos.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace una semana.</small>
+                      </div>
+                </div>
+           </div>
+        </div>
+        <!-- borcegos -->
+        <h2 id="seccion-borcegos">Borcegos</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/borcegos-1.jpeg" alt="borcegos negro mate simples ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Black mate</strong></h5>
+                        <p class="card-text">Borcegos con broche en mate.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="38">38</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 1 mes.</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 2 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/borcegos-2.jpeg" alt="borcegos negros con pinchos plateados ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Dark</strong></h5>
+                        <p class="card-text">Borcegos estilo punk con mini pinches.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 1 mes</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/borcegos-3.jpeg" alt="borcegos negros con cadenas ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Miss Punk</strong></h5>
+                        <p class="card-text">Borcegos con cadenas</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 5 días</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/borcegos-4.jpeg" alt="borcegos altos color negro mate con una cadena fina y estrellas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Eternal</strong></h5>
+                        <p class="card-text">Borcegos con  estellas y cadenas.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 5 días.</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/borcegos-5 (1).jpeg" alt="borcegos de plataforlma alta con decoracion metalica negras ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Militares</strong></h5>
+                        <p class="card-text">Borcegos clasicos.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 5 días</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 6 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/borcego-6.jpeg" alt="borcegos negrors con decoracion y cordones rosas">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Dark Pink</strong></h5>
+                        <p class="card-text">borcegos negrors con decoracion y cordones rosas.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 5 días.</small>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <!-- tacos -->
+        <h2 id="seccion-tacos">Tacos</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+           <div class="col">
+                <div class="card h-0">
+                    <img src="../multimedia/taco-1.jpeg" alt="tacos altos con cordones para ajustar color negro, taco ancho">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Atables</strong></h5>
+                        <p class="card-text">Tacos ajustables de aguja.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                        </select>
+                    <div class="compra">
+                            <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 4 días.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 2 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/taco-2.jpeg" alt="tacos al estuli bucaneras con taco metalicos ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Tacos Platinados</strong></h5>
+                        <p class="card-text">Tacos altos ancho color plateado.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="sin-stock">sin stock</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 4 días.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/taco-3.jpeg" alt="taco ancho negro ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Tacos CyberPunk</strong></h5>
+                        <p class="card-text">taco ancho negro</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="41">41</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 3 días</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/taco4.jpeg" alt="botas altas color negro con broches de decoracion en el talon de tacon alto ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Miss Killer</strong></h5>
+                        <p class="card-text">tacos estilo punk altos. </p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="40">40</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 3 días.</small>
+                      </div>
+                </div>
+           </div>
+           <!-- 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/taco5.jpeg" alt="tacos altos con decoracion elegante metalica">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Most Dark</strong></h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecioanar</option>
+                            <option value="sin-stock">sin stock</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 1 semana.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 6 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/taco-6.jpeg" alt="tacos negros con alas de murcielagos">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Mistic</strong></h5>
+                        <p class="card-text">Tacos con decoracion de alas de mmurcielago</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="34">34</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                       <small class="text-body-secondary">Ultima actualizacion hace 5 días.</small>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <!-- seccion zapatillas -->
+        <h2 id="seccion-zapatillas">Zapatillas</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/zapatillas-1.jpg_.avif" alt="zapatillas punta metalica">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Full Metal</strong></h5>
+                        <p class="card-text">Zapatillas con punta metalica.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 2 meses.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 2 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/zapatillas-2.jpg" alt="zapatillas de plataforma">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>plataformas</strong></h5>
+                        <p class="card-text">Zapatillas con plataforma. </p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 1 mes.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/zapatillas-3.jpg" alt="zapatillas negras de terciopelo ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Zapatillas Basicas</strong></h5>
+                        <p class="card-text">estilo clasico comun </p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="35">35</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="41">41</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 3 meses.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/zapatillas-4.jpeg" alt="zapatillas con decoracion roja">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Dark Red Line</strong></h5>
+                        <p class="card-text">Zapatillas con plataforma rojas y negras.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="sin-stock">sin stock</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 4 horas.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/zapatillas-5.jpg" alt="zapatillas con dos versiones , tanto blancas como negras , con decoraciones estilos punk con estrellas ">
+                    <div class="card-body">
+                        <h5 class="card-title">Kogal<strong></strong></h5>
+                        <p class="card-text">zapatillas con enfoque punk altas.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 5 días</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 6 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/zapatillas-6.jpg" alt="vans negras clasicas ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Old School</strong></h5>
+                        <p class="card-text">Zapatillascon estilo clasico y punk.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="42">42</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 2 semanas.</small>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <!-- seccion accesorios -->
+        <h2 id="seccion-accesorios">Accesorios</h2>
+        <div class="row row-cols-2 row-cols-md-3 g-4">
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/accesorios-1.jpeg" alt="collar con dije rojo">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Collar Madame Red</strong></h5>
+                        <p class="card-text"></p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="talle-unico">Talle unico</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                       <small class="text-body-secondary">Ultima actualizacion hace 6 días.</small>
+                    </div>
+              </div>
+            </div>
+           <!-- 2 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/accesorios-2.jpeg" alt="aros de color negro en forma de cruz">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>cruz catolica</strong></h5>
+                        <p class="card-text">Aritos cruz con estilo trival en negro.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="talle-unico">talle unico</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 6 días.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/accesorios-3.jpeg" alt="gargantilla negra de encaje con dije negro">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Dark Romance</strong></h5>
+                        <p class="card-text">Gargantilla negra de encaje negro.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="talle-unico">talle unico</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 2 semanas.</small>
+                    </div> 
+                </div>
+           </div>
+           <!-- 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/accesorios-4.jpeg" alt="botas altas color negro con broches de decoracion en el talon de tacon alto ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Gargantilla Soft</strong></h5>
+                        <p class="card-text">Gargantilla de medida unica.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="talle-unico">Talle unico</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 3 meses.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 5 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/accesorios-5.jpeg" alt="guantes de encaje negros hasta las muñecas, sin dedos">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Classy Woman</strong></h5>
+                        <p class="card-text">Guantes de encaje sofisticados de encaje sin dedos.</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="17-19">17-19</option>
+                            <option value="20-22">20-22</option>
+                            <option value="23-25">23-25</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 1 mes.</small>
+                    </div>
+                </div>
+           </div>
+           <!-- 6 -->
+           <div class="col">
+                <div class="card h-100">
+                    <img src="../multimedia/accesorios-6.jpeg" alt="botas altas color negro con broches de decoracion en el talon de tacon alto ">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Nigromante</strong></h5>
+                        <p class="card-text">Anillos de murcielagos negros</p>
+                    </div>
+                    <label for="sizeSelector">talle:</label>
+                        <select name="talle" id="sizeSelector">
+                            <option value="selecionar">selecionar</option>
+                            <option value="6">6</option>
+                            <option value="6,5">6,5</option>
+                            <option value="7">7</option>
+                            <option value="7,5">7,5</option>
+                            <option value="8">8</option>
+                        </select>
+                    <div class="compra">
+                        <a href="ruta/a/pagina/de/copra" class="btn btn-primary">Comprar</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Ultima actualizacion hace 30 minutos.</small>
+                    </div>
+                </div>
+           </div>
+        </div>
+  </div>
+  <section>
+    <a href="#inicio" class="scroll-to-top">Volver al Inicio</a>  
+  </section>
+  <!-- footer -->
+    <footer class="foter">
+        <!-- footer con informacion de contacto-->
+        <div class="footer-izquierda">
+            <img class="footer-img" src="../multimedia/logo.jpeg" >
+        </div>
+        <div class="footer-center">
+         <p><strong>nustras redes</strong></p> 
+            <a href="https://www.instagram.com/" target="_blank" class="instagram"><img src="../multimedia/ig.png" alt=""></a>
+
+            <a href="https://x.com/?lang=es" target="_blank" class="twitter-x"><img src="../multimedia/x-logo-png.webp" alt=""></a>
+
+            <a href="https://www.facebook.com" target="_blank" class="facebook"><img src="../multimedia/facebook.png" alt=""></a>
+        </div>
+        <div class="footer-derecha">
+            <p><strong>correo:</strong>contacto@sitioweb.com</p>
+            <p><strong>telefono:</strong>09 8 7654-3210</p>
+            <p><strong>horario de atencion:</strong>desde las 10:00 am hasta las 20:00 pm en todas nuestras sucursales</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+
+</body>
+</html>

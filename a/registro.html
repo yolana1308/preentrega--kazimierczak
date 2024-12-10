@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio de sesion</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+     <!-- logo y titulo -->
+    <header class="navegacion">
+        <nav class="barra">
+            <img  class="logo1" src="primera-parte/multimedia/logos/logo.jpeg" alt="logo de la marca, una luna con nubes rojas y azules">
+            <h1>iniciar sesion</h1>
+        </nav>
+    </header>
+<!-- formulario -->
+<div class="formulario-subtitulo">
+   <h2>formulario de registro</h2>
+</div>
+    <div class="contenedor-formulario">
+        <form action="/submit" method="post">
+            <div class="grid-form">
+                <label for="form-group">nombre completo:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="grid-form">
+                <label for="form-group">edad</label>
+                <input type="edad" id="edad" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">fecha de cumpleaños:</label>
+                <input type="date" id="birthdate"
+                name="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="email">correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="email"> confirmacion de correo Electrónico:</label>
+                <input type="email" id="confirm-email" name="confirm-email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password"> confirmacion de contraseña:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="pais">
+                <label for="country">pais:</label>
+                <select name="country" id="country" required>
+                    <option value=""disabled selected>selecione un país:</option>
+                     <option value="argentina">argentina</option>
+                     <option value="chile">chile</option>
+                     <option value="estados unidos">estados unidos</option>
+                     <option value="canada"> canada</option>
+                     <option value="paraguay">paraguay</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-izquierda">
+            <img class="footer-img" src="primera-parte/multimedia/logos/logo.jpeg" >
+        </div>
+        <div class="footer-center">
+            <a href="https://www.instagram.com/" target="_blank" class="instagram"><img src="primera-parte/multimedia/logos/ig.png" alt=""></a>
+
+            <a href="https://x.com/?lang=es" target="_blank" class="twitter-x"><img src="primera-parte/multimedia/logos/x-logo-png.webp" alt=""></a>
+
+            <a href="https://www.facebook.com" target="_blank" class="facebook"><img src="primera-parte/multimedia/logos/facebook.png" alt=""></a>
+
+            <p>nuestras redes</p>
+        </div>
+        <div class="footer-derecha">
+          <p><strong>correo:</strong>contacto@sitioweb.com</p>
+          <p><strong>telefono:</strong>09 8 7654-3210</p>
+          <p><strong>horario de atencion:</strong>desde las 10:00 am hasta las 20:00 pm en todas nuestras sucursales</p>
+        </div>
+    </footer>
+</body>
+</html>
