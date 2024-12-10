@@ -1,0 +1,30 @@
+
+@import "utilidades/variables";
+@import "utilidades/listas";
+@import "utilidades/mixin";
+
+.navbar{
+    .container-fluid{
+        $colores:violeta;
+        font-family: "Caudex", serif;
+        margin-left: auto;
+        top: 0%;
+        z-index: 15;
+        position: sticky;
+        collapse{
+            ul{
+                li{
+                    margin-left: 10%;
+                }
+            }
+        }
+        div {
+            .logo{
+                margin-left:20rem ;
+                max-width: 10%;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+    }
+}
