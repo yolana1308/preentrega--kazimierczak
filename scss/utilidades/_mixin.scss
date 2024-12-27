@@ -1,0 +1,50 @@
+@mixin navbar-style($bg-color, $font-family, $color) {  
+   background-color: $bg-color;  
+   font-family: $font-family;  
+   color: $color;  
+   margin-left: auto;  
+   top: 0%;  
+   z-index: 15;  
+   position: sticky;  
+}
+
+@mixin footer-style($bg-color, $font-family) {  
+   background-color: $bg-color;  
+   font-family: $font-family;  
+   display: grid;  
+   grid-template-columns: repeat(3, 1fr);  
+   padding: 20px;  
+   margin: 20px;  
+   max-width: max-content;  
+}  
+
+@mixin responsive-bg($mobile-bg, $tablet-bg) {  
+   @media (max-width: 1365px) {  
+       background-color: $tablet-bg;  
+   }  
+   @media (max-width: 915px) {  
+      background-color: $mobile-bg;  
+      max-width: auto;  
+      margin: 0%;  
+      position: fixed;  
+  }  
+}
+
+@mixin flex-center {  
+   display: flex;  
+   justify-content: center;  
+   align-items: center;  
+}  
+
+@mixin respond($breakpoint) {  
+   @if $breakpoint == small {  
+       @media (max-width: 915px) {  
+           @content;  
+       }  
+   } @else if $breakpoint == medium {  
+       @media (max-width: 1365px) {  
+           @content;  
+       }  
+   }  
+} 
+

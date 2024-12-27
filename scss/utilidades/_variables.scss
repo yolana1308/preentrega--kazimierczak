@@ -1,1 +1,23 @@
-$font-family:"Caudex", serif
+$colors: (  
+  navbar-bg: rgba(37, 3, 79, 0.776),  
+  navbar-font: rgb(182, 198, 213),  
+  footer-bg: rgba(37, 3, 79, 0.776),  
+  footer-bg-tablet: rgb(58, 58, 190),  
+  footer-bg-mobile: rgb(9, 91, 121),  
+  title-color: rgb(38, 21, 107),  
+  title-text: black,  
+  link-color: aliceblue,  
+  formulario-bg: #947cb993,  
+  shadow: rgba(0, 0, 0, 0.1)  
+);  
+
+$navbar-bg: rgba(37, 3, 79, 0.776);  
+$footer-bg: rgba(37, 3, 79, 0.776);  
+$container-bg-desktop: rgb(58, 58, 190);  
+$container-bg-tablet: rgb(9, 91, 121);  
+$footer-bg-tablet: rgb(58, 58, 190);  
+$footer-bg-mobile: rgb(9, 91, 121);  
+$font-family: "Caudex", serif;  
+$color-light: rgb(182, 198, 213);  
+$color-dark: rgb(38, 21, 107);  
+$color-black: black;  

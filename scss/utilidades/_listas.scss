@@ -1,13 +1,16 @@
 
 $colores: (
-violeta: rgba(37, 3, 79, 0.776),
-rosa-palido: #ebd8fba1,
-gris: #947cb993,
-verde: rgb(50, 102, 105),
-lila: rgb(146, 129, 238),
+violeta:1 rgba(37, 3, 79, 0.776),
+2: #ebd8fba1,
+3: #947cb993,
+4: rgb(50, 102, 105),
+5: rgb(146, 129, 238),
 )
 
-$title( text-decoration: underline, text-align:center, font-side:40px, font-famly:"Caudex", serif,
+$title( text-decoration: underline,
+ text-align:center,
+  font-side:40px, 
+  font-famly:"Caudex", serif,
 )
 
 $img(width: 478px,
